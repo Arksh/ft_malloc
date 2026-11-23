@@ -7,7 +7,7 @@ CYAN	= @echo "\033[0;35m"
 RESET	= "\033[1;0m"
 
 #	file's name
-NAME	= 
+NAME	= test
 
 #	compilation
 CC		= gcc
@@ -31,7 +31,7 @@ LIBS		= -L $(LIBFT_DIR) -lft -lreadline -L $(READ)/lib
 BIN_DIR		= bin
 SRC_DIR		= srcs
 SRCS		= main.c
-LIBFT_DIR	= libft		# path to libft libft
+LIBFT_DIR	= #libft		# path to libft libft
 INCLUDE_DIR	= include		# path to headers
 
 
